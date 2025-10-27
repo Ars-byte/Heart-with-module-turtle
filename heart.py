@@ -12,7 +12,7 @@ def heartb(k):
 
 Screen().title("Heart :3")
 speed(0) 
-bgcolor("white")
+bgcolor("pink")
 color("red", "red") 
 penup()
 goto(0, 270) 
@@ -27,4 +27,5 @@ for i in range(628):
     goto(x, y)
 
 end_fill()
+
 done()
